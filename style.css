@@ -357,3 +357,23 @@ margin-bottom:15px;
 font-size:20px;
 margin-bottom:30px;
 }
+#why-us{
+padding:80px 8%;
+text-align:center;
+background:#f8f8f8;
+}
+
+#why-us .card{
+padding:30px;
+}
+
+#why-us .card i{
+font-size:45px;
+color:#d4af37;
+margin-bottom:15px;
+}
+
+#why-us .card p{
+margin-top:10px;
+color:#666;
+}
