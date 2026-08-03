@@ -341,3 +341,19 @@ box-shadow:0 5px 15px rgba(0,0,0,.2);
 transform:translateY(-5px) scale(1.08);
 background:#b8911f;
 }
+#quote{
+padding:80px 8%;
+text-align:center;
+background:#d4af37;
+color:#fff;
+}
+
+#quote h2{
+font-size:38px;
+margin-bottom:15px;
+}
+
+#quote p{
+font-size:20px;
+margin-bottom:30px;
+}
