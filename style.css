@@ -148,25 +148,30 @@ color:#d4af37;
 
 .gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:20px;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:30px;
 }
 
 .box{
-height:260px;
-background:#1b1b1b;
+overflow:hidden;
 border-radius:15px;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:22px;
-border:2px dashed #555;
+box-shadow:0 8px 20px rgba(0,0,0,.2);
+height:250px;
+background:#fff;
 transition:.4s;
 }
 
-.box:hover{
-border-color:#d4af37;
-transform:scale(1.03);
+.box img{
+width:100%;
+height:100%;
+object-fit:cover;
+transition:.4s;
+display:block;
+}
+
+.box:hover img{
+transform:scale(1.08);
 }
 
 #contact{
