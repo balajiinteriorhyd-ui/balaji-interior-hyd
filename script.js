@@ -40,11 +40,6 @@ document.querySelectorAll("section,.card,.box").forEach((el) => {
   observer.observe(el);
 });
 
-// Gallery Click Effect
-document.querySelectorAll(".box").forEach((box) => {
-  box.addEventListener("click", () => {
-    alert("Project details will be added soon.");
-  });
-});
+
 
 console.log("Balaji Interior Website Loaded Successfully.");
