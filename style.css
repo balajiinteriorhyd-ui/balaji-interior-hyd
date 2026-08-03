@@ -267,3 +267,19 @@ text-align:center;
 #location h2{
 margin-bottom:25px;
 }
+#reviews{
+padding:80px 8%;
+text-align:center;
+}
+
+#reviews .card{
+padding:25px;
+border-radius:15px;
+background:#fff;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+#reviews h4{
+margin-top:15px;
+color:#d4af37;
+}
