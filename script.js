@@ -59,3 +59,21 @@ topBtn.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+const boxes = document.querySelectorAll(".box");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+boxes.forEach((box)=>{
+  const img = box.querySelector("img");
+
+  if(img){
+    box.addEventListener("click",()=>{
+      lightbox.style.display="flex";
+      lightboxImg.src = img.src;
+    });
+  }
+});
+
+lightbox.addEventListener("click",()=>{
+  lightbox.style.display="none";
+});
