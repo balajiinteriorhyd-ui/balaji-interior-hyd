@@ -283,3 +283,23 @@ box-shadow:0 5px 15px rgba(0,0,0,.1);
 margin-top:15px;
 color:#d4af37;
 }
+#topBtn{
+display:none;
+position:fixed;
+bottom:90px;
+right:20px;
+width:50px;
+height:50px;
+border:none;
+border-radius:50%;
+background:#d4af37;
+color:#fff;
+font-size:20px;
+cursor:pointer;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+z-index:999;
+}
+
+#topBtn:hover{
+background:#b8921d;
+}
