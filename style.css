@@ -214,3 +214,8 @@ font-size:32px;
 }
 
 }
+.logo img{
+    height:60px;
+    width:auto;
+    display:block;
+}
