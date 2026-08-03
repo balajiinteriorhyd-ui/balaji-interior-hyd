@@ -259,3 +259,11 @@ transition:.3s;
 .whatsapp-float:hover{
 transform:scale(1.1);
 }
+#location{
+padding:80px 8%;
+text-align:center;
+}
+
+#location h2{
+margin-bottom:25px;
+}
