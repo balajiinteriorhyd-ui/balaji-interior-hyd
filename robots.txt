@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://balaji-interior-designers-hyd.netlify.app/sitemap.xml
